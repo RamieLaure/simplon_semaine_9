@@ -1,16 +1,7 @@
-# simplon_semaine_9
-FOAD Simplonline
+FOAD Simplonline - Semaine 9
 
-Exercice 1 : les objets
+* Création d'un [annuaire basique en JS](url du lien externe) (Fonction ajouter / rechercher / afficher)
 
-Cours et application pratique : les objets en javascript
+* Création d'un ![tableau basique en JS](tableau/tableau.png) (Fonction ajouter / annuler)
 
-
-Exerice 2 : les tableaux
-
-Cours et application pratique : les tableaux en javascript
-
-
-Exercice 3 : Jouer avec une classe CSS en javascript
-
-Jouer avec une classe CSS en javascript
+* Création d'une [liste](url du lien externe) dont le CSS peut être changé via JS
