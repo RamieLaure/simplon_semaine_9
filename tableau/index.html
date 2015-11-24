@@ -3,19 +3,37 @@
 
 <head>
 	<link href="tableau/tableau.css" rel="stylesheet">
+	<meta charset="UTF-8">
 </head>
 
 <body>
     
 	<div class="form-style-6">
-       <h1>Tableau</h1>
-    <form>
-        <input id="texte" name="field1" placeholder="Nom" autocomplete="off"/>
-		<button id="ajouter">Ajouter</button>
-		<button id="annuler">Annuler</button>
-		<ul id="liste"></ul>
-    </form>
-</div>
+       <h1>Contacts</h1>
+        
+        <form>
+            <input id="prenom" name="field1" placeholder="Prenom" autocomplete="off"/>
+            <input id="nom" name="field2" placeholder="Nom" autocomplete="off"/>
+            <input id="tel" name="field3" placeholder="Tel" autocomplete="off"/>
+    		<button id="ajouter">Ajouter</button>
+    		<button id="annuler">Annuler</button>
+        </form>
+    
+        <div class="form">
+		    <ul id="list">
+		    </ul>
+    	</div>
+
+       <div class="form">
+    	    <input id="research" placeholder="..." autocomplete="off" />
+    	    <button id="search">Rechercher</button>
+    	</div>
+    	
+    	<div class="form">
+    		<ul id="result"></ul>
+    	</div>
+
+    </div>
 
 <script src="tableau/tableau.js"></script>
 </body>
